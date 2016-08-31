@@ -34,7 +34,7 @@ public class TileFragment extends Fragment {
                              Bundle savedInstanceState) {
         if(rootView == null) {
             rootView = inflater.inflate(LAYOUT, container, false);
-            Log.d(TAG, "CardView - Layout: " + TAG + " inflated...");
+            Log.d(TAG, "CardView - Layout: " + TAG + " inflated....");
 
             RecyclerView mRecyclerView = (RecyclerView) rootView.findViewById(RECYCLERVIEW);
             mRecyclerView.setHasFixedSize(true);
