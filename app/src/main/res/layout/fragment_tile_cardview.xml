@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="6dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:theme="@style/CardView"
+
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:id="@+id/cardview_fragment_test_rlWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:longClickable="false"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/cardview_fragment_test_image"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/cardview_fragment_test_tvName"
+            android:layout_below="@+id/cardview_fragment_test_image"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
