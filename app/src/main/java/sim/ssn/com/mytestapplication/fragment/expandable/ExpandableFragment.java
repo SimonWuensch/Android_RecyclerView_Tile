@@ -38,7 +38,7 @@ public class ExpandableFragment extends Fragment {
                              Bundle savedInstanceState) {
         if(rootView == null) {
             rootView = inflater.inflate(LAYOUT, container, false);
-            Log.d(TAG, "CardView - Layout: " + TAG + " inflated...");
+            Log.d(TAG, "CardView - Layouts: " + TAG + " inflated...");
 
             RecyclerView mRecyclerView = (RecyclerView) rootView.findViewById(RECYCLERVIEW);
             mRecyclerView.setHasFixedSize(true);
